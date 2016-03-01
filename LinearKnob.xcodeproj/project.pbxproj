@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EA360DF1C86179600A0B895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA360DE1C86179600A0B895 /* AppDelegate.m */; };
+		4EA360E21C86179600A0B895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA360E11C86179600A0B895 /* main.m */; };
+		4EA360E41C86179600A0B895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA360E31C86179600A0B895 /* Assets.xcassets */; };
+		4EA360E71C86179600A0B895 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EA360E51C86179600A0B895 /* MainMenu.xib */; };
+		4EA360F21C8617D700A0B895 /* GGKnobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA360EF1C8617D700A0B895 /* GGKnobCell.m */; };
+		4EA360F31C8617D700A0B895 /* GGLinearKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA360F11C8617D700A0B895 /* GGLinearKnob.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EA360DA1C86179600A0B895 /* LinearKnob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearKnob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA360DD1C86179600A0B895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EA360DE1C86179600A0B895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EA360E11C86179600A0B895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EA360E31C86179600A0B895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EA360E61C86179600A0B895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4EA360E81C86179600A0B895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA360EE1C8617D700A0B895 /* GGKnobCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGKnobCell.h; sourceTree = "<group>"; };
+		4EA360EF1C8617D700A0B895 /* GGKnobCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGKnobCell.m; sourceTree = "<group>"; };
+		4EA360F01C8617D700A0B895 /* GGLinearKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLinearKnob.h; sourceTree = "<group>"; };
+		4EA360F11C8617D700A0B895 /* GGLinearKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGLinearKnob.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EA360D71C86179600A0B895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EA360D11C86179600A0B895 = {
+			isa = PBXGroup;
+			children = (
+				4EA360DC1C86179600A0B895 /* LinearKnob */,
+				4EA360DB1C86179600A0B895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EA360DB1C86179600A0B895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EA360DA1C86179600A0B895 /* LinearKnob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EA360DC1C86179600A0B895 /* LinearKnob */ = {
+			isa = PBXGroup;
+			children = (
+				4EA360DD1C86179600A0B895 /* AppDelegate.h */,
+				4EA360DE1C86179600A0B895 /* AppDelegate.m */,
+				4EA360EE1C8617D700A0B895 /* GGKnobCell.h */,
+				4EA360EF1C8617D700A0B895 /* GGKnobCell.m */,
+				4EA360F01C8617D700A0B895 /* GGLinearKnob.h */,
+				4EA360F11C8617D700A0B895 /* GGLinearKnob.m */,
+				4EA360E31C86179600A0B895 /* Assets.xcassets */,
+				4EA360E51C86179600A0B895 /* MainMenu.xib */,
+				4EA360E81C86179600A0B895 /* Info.plist */,
+				4EA360E01C86179600A0B895 /* Supporting Files */,
+			);
+			path = LinearKnob;
+			sourceTree = "<group>";
+		};
+		4EA360E01C86179600A0B895 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EA360E11C86179600A0B895 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EA360D91C86179600A0B895 /* LinearKnob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA360EB1C86179600A0B895 /* Build configuration list for PBXNativeTarget "LinearKnob" */;
+			buildPhases = (
+				4EA360D61C86179600A0B895 /* Sources */,
+				4EA360D71C86179600A0B895 /* Frameworks */,
+				4EA360D81C86179600A0B895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearKnob;
+			productName = LinearKnob;
+			productReference = 4EA360DA1C86179600A0B895 /* LinearKnob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EA360D21C86179600A0B895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gary Grutzek";
+				TargetAttributes = {
+					4EA360D91C86179600A0B895 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4EA360D51C86179600A0B895 /* Build configuration list for PBXProject "LinearKnob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EA360D11C86179600A0B895;
+			productRefGroup = 4EA360DB1C86179600A0B895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EA360D91C86179600A0B895 /* LinearKnob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EA360D81C86179600A0B895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA360E41C86179600A0B895 /* Assets.xcassets in Resources */,
+				4EA360E71C86179600A0B895 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EA360D61C86179600A0B895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA360F31C8617D700A0B895 /* GGLinearKnob.m in Sources */,
+				4EA360E21C86179600A0B895 /* main.m in Sources */,
+				4EA360F21C8617D700A0B895 /* GGKnobCell.m in Sources */,
+				4EA360DF1C86179600A0B895 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EA360E51C86179600A0B895 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EA360E61C86179600A0B895 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EA360E91C86179600A0B895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4EA360EA1C86179600A0B895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EA360EC1C86179600A0B895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LinearKnob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GG.LinearKnob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EA360ED1C86179600A0B895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LinearKnob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GG.LinearKnob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EA360D51C86179600A0B895 /* Build configuration list for PBXProject "LinearKnob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA360E91C86179600A0B895 /* Debug */,
+				4EA360EA1C86179600A0B895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA360EB1C86179600A0B895 /* Build configuration list for PBXNativeTarget "LinearKnob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA360EC1C86179600A0B895 /* Debug */,
+				4EA360ED1C86179600A0B895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EA360D21C86179600A0B895 /* Project object */;
+}
